@@ -1,0 +1,16 @@
+-- Reference schema for HYU Portfolio only.
+-- The live Supabase project already contains the portfolio_* tables used by this repository.
+-- Keep RLS enabled. Public clients receive SELECT access; authenticated administrators write through policies using public.is_admin().
+--
+-- Current portfolio tables:
+--   public.portfolio_profile
+--   public.portfolio_settings
+--   public.portfolio_highlights
+--   public.portfolio_projects
+--   public.portfolio_skills
+--   public.portfolio_education
+--   public.portfolio_sections
+--   public.portfolio_section_items
+--
+-- Live Supabase project ref: zkrhwqgmynbbmoktokdq
+-- Do not commit secret/service-role keys.
